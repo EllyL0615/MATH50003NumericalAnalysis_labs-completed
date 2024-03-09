@@ -5,7 +5,7 @@ Lecturer: [Dr Sheehan Olver](https://www.ma.imperial.ac.uk/~solver/)
 
 Office hour: Mondays 11am, Huxley 6M40
 
-## [Notes](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/notes.pdf) (up to Week 8)
+## [Notes](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/notes.pdf) (up to Week 9)
 
 ## Weekly Material
 
@@ -33,11 +33,13 @@ Office hour: Mondays 11am, Huxley 6M40
 8. IV.1 Fourier Expansions and IV.2 Discrete Fourier Transform
    - [Revision Lab](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab8.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab8s.ipynb))
    - [Sheet 8](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet8.pdf)
+9. IV.3 Orthogonal Polynomials and IV.4 Classical Orthogonal Polynomials
+   - [Sheet 9](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet9.pdf)
 
 
 ## Assessment
 
-1. Practice computer-based exam (marked but not for credit, on Blackboard): 7 March 2024, 16:00-17:30pm
+1. [Mock computer-based exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/mockexam.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/mockexams.ipynb))
 2. Computer-based exam (20% of term mark): 15 March 2024, 9:00–10:30
 5. Final exam (pen-and-paper, 80% of term mark): 7 May 2024, 10:00–13:00
 

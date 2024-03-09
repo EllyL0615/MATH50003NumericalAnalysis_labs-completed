@@ -24,6 +24,8 @@ compilenotes("III.6.QR")
 
 compilenotes("IV.1.Fourier")
 compilenotes("IV.2.DFT")
+compilenotes("IV.3.OrthogonalPolynomials")
+compilenotes("IV.4.ClassicalOPs")
 
 
 compilenotes("A.Asymptotics")
@@ -34,7 +36,7 @@ compilenotes("A.Permutations")
 # Sheets
 ####
 
-for k = 1:8
+for k = 1:9
     compilesheet(k)
 end
 
@@ -69,3 +71,22 @@ using Weave
 
 nkwds = (out_path="notes/", jupyter_path="$(homedir())/.julia/conda/3/x86_64/bin/jupyter", nbconvert_options="--allow-errors")
 notebook("src/notes/A.Julia.jmd"; nkwds...)
+
+
+###
+# exams
+###
+
+import Literate
+
+function compileexam(str)
+    write("exams/$str.jl", replace(replace(read("src/exams/$(str)s.jl", String), r"## SOLUTION(.*?)## END"s => "")))
+    Literate.notebook("exams/$str.jl", "exams/"; execute=false)
+end
+
+function compileexamsolution(str)
+    Literate.notebook("src/exams/$(str)s.jl", "exams/")
+end
+
+compileexam("mockexam")
+compileexamsolution("mockexam")
